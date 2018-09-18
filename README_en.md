@@ -1,22 +1,22 @@
-# Seven simple coding rules for good code
+# 7 simple rules for better code
 
-## 1. Separate function when one function goes over one page
-12 "notebook standard, usually including comment lines up to 25 lines.
+## 1. Separate into another function when lines of a function are over one page
+Based on a 12 "notebook, it's usually up to 25 lines including comments.
 
-## 2. Separate functions if the indentation goes over two levels
+## 2. Separate into another function when an indentation is over two levels
 When a for statement or an if statement occurs, think about it once again.
 
-## 3. Separate by function if you need to write comments
-When the semantics are separated, the annotation is expressed by the function name.
+## 3. Separate into another function if you need to write comments
+The block could be separated by semantics. Try to summarize the comments as a function name.
 
-## 4. When the type of processed data is added, separate into modules (files) or classes
-A program is basically a combination of data and algorithms that deal with that data.
+## 4. Separate into another module(file) or classes when you need to add data of a new type.
+A program is basically a combination of data and algorithms process the data.
 
-## 5. Must use lint, format tool
-The recommended lint and format rules almost contain the best practices.
+## 5. Use linting and formatting tool always
+Recommended linting and formatting tools contain most of the best practices.
 
-## 6. Start with a refactoring line before adding / modifying features
+## 6. Start with a refactoring at least one line before adding or modifying functions.
 It is also good to warm up brain
 
 ## 7. Start with just one test case
-Although not immediately available, it's easy to add tests when adding, modifying, or refactoring features.
+Even if it's not available now, it makes easy to add tests next time when adding, modifying, or refactoring your functions.
